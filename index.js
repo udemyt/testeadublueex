@@ -9,6 +9,10 @@ app.get('/', (req , res) => {
     res.send({ arguilho: "EntreAmigos!"});
 });
 
+app.get('/pai', (req , res) => {
+    res.send({ pai: "Deus é incrível!!!"});
+});
+
 app.get('/tes', (req , res) => {
     res.send({ arguilho: "EntreIrmãos!"});
 });
