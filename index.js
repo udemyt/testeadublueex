@@ -9,6 +9,10 @@ app.get('/', (req , res) => {
     res.send({ arguilho: "EntreAmigos!"});
 });
 
+app.get('/tes', (req , res) => {
+    res.send({ arguilho: "EntreIrmãos!"});
+});
+
 
 
 app.listen(8000, () => {
